@@ -1,1 +1,106 @@
-<h1>My link in bio</h1>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      /* *{
+        border: thin red solid;
+      } */
+      body{
+        display: flex;
+        justify-content: center;
+        background-color: #f2f7f5;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .name{
+        color: #00473e;
+        display: flex;
+        justify-content: center;
+      }
+
+      .link{
+        background-color: #fbdd74;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+
+      .link a{
+        text-decoration: none;
+        color: #00473e;
+        text-align: center;
+        flex-grow: 1;
+      }
+      .banner{
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner-image{
+        display: flex;
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+        box-shadow: 10px 5px 5px lightgrey;
+      }
+
+      .thumbnail{
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+
+      .items{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+        
+      }
+
+      .social-icons{
+        display: flex;
+        justify-content: space-around;
+       
+      }
+
+      .social-icons a{
+        
+        text-decoration: none;
+        color: #00473e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="items">
+    <div class="banner">
+    <img class="banner-image" src="./images/antigua.jpg" alt="antigua, guatemala"/>
+  </div>
+  <div class="name">Monica Benavides</div>
+  <div class="social-icons">
+    
+    <a href="https://www.linkedin.com/in/monica-b-a95085137/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/monibena" target="_blank">Github</a>
+  </div>
+
+
+  <div class="link">
+    <img class="thumbnail" src="./images/craftedbymonica.png" alt="craftedbymonica logo"/>
+    <a href="https://www.instagram.com/craftedbymonica/" target="_blank">Instagram</a>
+  </div>
+
+  <div class="link">
+    <img class="thumbnail" src="./images/channels4_profile.jpg" alt="craftedbymonica logo"/>
+    <a href="https://www.youtube.com/@CalebHammer" target="_blank">Financial Audit with Caleb Hammer</a>
+  </div>
+</div>
+  </body>
+  </html>
